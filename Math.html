@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+    <link rel="stylesheet" href="Math.css">
+</head>
+<body>
+    <h1>Допомога школяреві</h1>
+   <p> Введіть число a:</p><input type="text" id="input_a">
+    <p>Введіть число b:</p><input type="text" id="input_b">
+    <p><button onclick="ab()">Рахувати a+b=</button></p>
+        <p><button onclick="ab()">Рахувати a*b</button></p>
+          <script>
+              function ab(){
+    var a = parseInt(document.getElementById("input_a").value);
+    var b = parseInt(document.getElementById("input_b").value);
+    console.log(a);
+    console.log(b);
+    alert(a+b);
+    alert(a*b);
+}
+          </script>
+     </body>
+</html>
