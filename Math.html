@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>Index</title>
     <link rel="stylesheet" href="Math.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    <h1>Допомога школяреві</h1>
-   <p> Введіть число a:</p><input type="text" id="input_a">
-    <p>Введіть число b:</p><input type="text" id="input_b">
-    <p><button onclick="ab()">Рахувати a+b=</button></p>
-        <p><button onclick="ab()">Рахувати a*b</button></p>
-          <script>
-              function ab(){
-    var a = parseInt(document.getElementById("input_a").value);
-    var b = parseInt(document.getElementById("input_b").value);
-    console.log(a);
-    console.log(b);
-    alert(a+b);
-    alert(a*b);
-}
-          </script>
-     </body>
+    <div id="1"></div>
+    <div id="2"></div>
+    <div id="3"></div>
+    <div class="container">
+        <div class="row">
+            <h1 class="m-3">Допомога школяреві</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-3"> Введіть число a:</p>
+                <input class="m-3" type="text" id="input_a">
+                <p class="m-3">Введіть число b:</p>
+                <input class="m-3" type="text" id="input_b">
+                <p><button class="btn btn-primary m-3" onclick="ab()">Рахувати a+b=</button></p>
+                <p><button class="btn btn-primary m-3" onclick="ab()">Рахувати a*b</button></p>
+            </div>
+            <div class="col-sm-6">
+                <img id="author-image" src="img.jpg" alt="Author" class="img-thumbnail mt-2">
+            </div>
+        </div>
+    </div>
+    <script>
+        function ab() {
+            var a = parseInt(document.getElementById("input_a").value);
+            var b = parseInt(document.getElementById("input_b").value);
+            console.log(a);
+            console.log(b);
+            alert(a + b);
+            alert(a * b);
+        }
+    </script>
+</body>
+
 </html>

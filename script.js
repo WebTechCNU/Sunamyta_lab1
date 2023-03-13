@@ -4,4 +4,6 @@ function ab(){
     console.log(a);
     console.log(b);
     alert(a+b)
+
+    let div = document.querySelector("#3");
 }

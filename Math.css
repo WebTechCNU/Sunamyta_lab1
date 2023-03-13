@@ -1,2 +1,11 @@
-p{color:red;}
-h1{color:slateblue;}
+p {
+    color: red;
+}
+
+h1 {
+    color: slateblue;
+}
+
+#author-image{
+    max-width: 60%;
+}
