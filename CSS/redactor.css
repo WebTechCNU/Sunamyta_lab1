@@ -1,0 +1,20 @@
+.data{
+    text-align:center;
+    padding:0%;
+   margin:0%;
+   color:black;
+   font-size: 80px;
+   font-style:italic;}
+.row{
+    text-align:center;
+    padding-top: 100px;
+    }
+.form-control{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.len, span{
+    padding-top: 50px; 
+    color:black;
+    font-size: 30px
+}

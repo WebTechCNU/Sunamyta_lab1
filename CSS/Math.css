@@ -1,0 +1,67 @@
+p {
+    color:red;
+}
+
+h1{
+    color:black;
+    font-size: 80px;
+    font-style:italic;
+}
+.data{
+    text-align:center;
+    padding:0%;
+   margin:0%;
+}
+.row{
+   overflow: hidden;
+   margin-left:0px; 
+   padding:150px;
+   font-size: 50px;
+}
+.col1,.col3{
+    white-space:normal;
+    display:inline-block;
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 0%;
+    border-radius: 50px;
+   
+    
+}
+.len {
+   float:left 60px;
+   padding: 3%;
+   padding-right: 5%;
+   margin-left:30px;
+   color:red;
+}
+.col4 {
+    margin-right:0px;
+    border-radius: 50px;
+}
+h4 {
+color:black
+  
+    
+}
+h5 {
+        color:black
+    }
+.len2{
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-left: 20px;
+    
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius:200px;
+    color: white;
+}
+body{
+    background: url(1616523070_43-p-svetlii-fon-45.jpg);
+}

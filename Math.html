@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>Index</title>
-    <link rel="stylesheet" href="Math.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>>
+    <link href="CSS/Math.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Допомога школяреві</h1>
-   <p> Введіть число a:</p><input type="text" id="input_a">
-    <p>Введіть число b:</p><input type="text" id="input_b">
-    <p><button onclick="ab()">Рахувати a+b=</button></p>
-        <p><button onclick="ab()">Рахувати a*b</button></p>
-          <script>
-              function ab(){
-    var a = parseInt(document.getElementById("input_a").value);
-    var b = parseInt(document.getElementById("input_b").value);
-    console.log(a);
-    console.log(b);
-    alert(a+b);
-    alert(a*b);
-}
-          </script>
-     </body>
+    
+
+    <h1 class="data"> Допомога школяреві</h1>
+    <div class="row">
+        <div class="col1">
+        
+                <div>
+                    <p><h5>Введіть числo a: </h5><input class="len2" type="text" id="input_a"></p>
+                </div>
+                <div>
+                    <p><h5>Введіть число b:</h5><input class="len2" type="text" id="input_b"></p>
+                </div>
+            </div>
+    
+
+
+        <p class="len"> <button class="btn  btn-primary m-3" onclick="ab()">Result </button></p>
+
+
+        <div class="col3">
+        
+                <div><h4>a+b:</h4><p ><input class="len2" type="text" id="sum" readonly="readonly" /></p>
+                </div>
+                <div> <h4>a*b:</h4><p><input class="len2" type="text" id="pr" readonly="readonly" /></p>
+                </div>
+        
+        </div>
+    </div>
+    <script src="Script/script.js">
+
+    </script>
+</body>
+
 </html>
