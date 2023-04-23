@@ -36,3 +36,4 @@ function getNumberSpelling(){
     }
     document.querySelector("#output").innerHTML = spelling;
 }
+let 

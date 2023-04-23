@@ -65,3 +65,20 @@ h5 {
 body{
     background: url(1616523070_43-p-svetlii-fon-45.jpg);
 }
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;}
+.previous{
+    background-color: #f1f1f1;
+    color:black;
+
+}
+.round{
+    border-radius: 50px;
+
+}
+.div{
+    padding: 0px;
+    margin-top: -590px;
+}

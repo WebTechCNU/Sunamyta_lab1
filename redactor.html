@@ -2,21 +2,34 @@
 <html>
 
 <head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>>
     <link href="CSS/redactor.css" rel="stylesheet">
 </head>
 
 <body>
-    
+
     <h1 class="data"> Допомога редактору </h1>
     <div class='row'>
-    <div class="form-group"> <input class="form-control" id="txt"> </input>
-        
-        <button id="btn" class="btn-success" onclick="Txt()">Start</button>
-        <div class='len' id="txt1">К-сть слів  <span id ="span"> 0 </span></div>
+        <div class="form1"> <input class="form" id="txt"> </input>
+
+            <button id="btn" class="btn btn-dark" onclick="Txt()">Start</button>
+            <div class='len' id="txt1">К-сть слів <span id="span"> 0 </span></div>
+        </div>
     </div>
+    <div class="div">
+        <input id='txt6' type="button" onclick="history.back()" value="&#8249";/>
     </div>
-</div>
-    </section>
     <script src="Script/redactor.js">
     </script>
 </body>
