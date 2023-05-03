@@ -16,24 +16,30 @@ let mathConst = {
     14: "чотирнадцять",
     15: "пятнадцять",
     16: "шістнадцять",
-    17: "сімнадцять", 
-    18: "вісімнадцять", 
-    19: "девятнадцять", 
-    20: "двадцять", 
-    40: "сорок", 
-    90: "девяносто", 
-    100: "сто"
+    17: "сімнадцять",
+    18: "вісімнадцять",
+    19: "девятнадцять",
+    20: "двадцять",
+    30: "тридцять",
+    40: "сорок",
+    50: "пятдесят",
+    60: "шістьдесят",
+    70: "сімдесят",
+    80: "вісімдесят",
+    90: "девяносто",
+    100: "сто",
+    1000: "тисяча",
+
 }
 
-function getNumberSpelling(){
+function getNumberSpelling() {
     let number = Number(document.querySelector("#inp_1").value);
     let spelling = "";
-    if((number <= 20 && number >= 0) || (number == 40) || (number == 90) || (number == 100)){
+    if ((number <= 20 && number >= 0) || (number == 40) || (number == 90) || (number == 100)) {
         spelling = mathConst[number];
     }
-    else{
+    else {
         spelling = mathConst[Math.floor(number / 10)] + "десят " + mathConst[number % 10];
+
     }
-    document.querySelector("#output").innerHTML = spelling;
 }
-let 

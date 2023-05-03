@@ -1,5 +1,11 @@
+
+body{
+    background-color: rgb(189, 168, 144);
+}
+
 p {
     color:red;
+    
 }
 
 h1{
@@ -48,7 +54,7 @@ color:black
     
 }
 h5 {
-        color:black
+        color:rgb(0, 0, 0)
     }
 .len2{
     border-radius: 20px;
@@ -62,18 +68,14 @@ h5 {
     border-radius:200px;
     color: white;
 }
-body{
-    background: url(1616523070_43-p-svetlii-fon-45.jpg);
-}
+
 a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;}
-.previous{
-    background-color: #f1f1f1;
-    color:black;
 
-}
+
+
 .round{
     border-radius: 50px;
 
@@ -81,4 +83,10 @@ a {
 .div{
     padding: 0px;
     margin-top: -590px;
+}
+img{
+    margin-left: 1200px;
+    border-radius: 20px;
+    margin-top: 400px;
+    bottom: 0px;
 }
